@@ -12,12 +12,11 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import uuid from "react-native-uuid";
-// NOTE: For security reasons, the API key should ideally be managed securely.
 import { GoogleGenAI } from "@google/genai";
 import getPrompt from "../utils/getPrompt";
 import AiAvatar from '../assets/icon-chat.png';
 
-// เปลี่ยนข้อความเริ่มต้นสำหรับ FruitGuruAI
+// ข้อความเริ่มต้นสำหรับ FruitGuruAI
 export const initialMessageHistory = [
   {
     id: "default",

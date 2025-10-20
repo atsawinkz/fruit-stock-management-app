@@ -6,6 +6,7 @@ import AddProduct from "./screens/AddProduct";
 import UpdateProduct from "./screens/UpdateProduct";
 import ProductList from "./screens/ProductList";
 import ChatScreen from "./screens/ChatScreen";
+import LoginScreen from "./screens/LoginScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -13,6 +14,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerTitleAlign: "center" }}>
+        <Stack.Screen name="LoginScreen" component={LoginScreen} options={{ title: "เข้าสู่ระบบ" }} />
         <Stack.Screen name="FruitList" component={ProductList} options={{ title: "รายการสินค้า" }} />
         <Stack.Screen name="AddFruit" component={AddProduct} options={{ title: "เพิ่มสินค้า" }} />
         <Stack.Screen name="UpdateFruit" component={UpdateProduct} options={{ title: "แก้ไข้ข้อมูลสินค้า" }} />
