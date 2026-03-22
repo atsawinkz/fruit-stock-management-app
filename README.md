@@ -1,16 +1,16 @@
-# 🍎 Fruit Stock Management App
+# Fruit Stock Management App
 
 A React Native mobile application for managing fruit inventory with an AI-powered assistant built on Google Gemini.
 
-## ✨ Features
+## Features
 
-- 🔐 **Login System** — Simple authentication with image slideshow on the login screen
-- 📋 **Product List** — View all fruit inventory stored in Firebase Firestore
-- ➕ **Add Product** — Add new fruit items to the stock database
-- ✏️ **Update Product** — Edit existing fruit item details
-- 🤖 **FruitGuruAI Chat** — AI-powered chatbot (powered by Gemini 2.5 Flash) specializing in tropical fruits and exotic fruit knowledge
+- **Login System** — Simple authentication with image slideshow on the login screen
+- **Product List** — View all fruit inventory stored in Firebase Firestore
+- **Add Product** — Add new fruit items to the stock database
+- **Update Product** — Edit existing fruit item details
+- **FruitGuruAI Chat** — AI-powered chatbot (powered by Gemini 2.5 Flash) specializing in tropical fruits and exotic fruit knowledge
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Usage |
 |---|---|
@@ -22,7 +22,7 @@ A React Native mobile application for managing fruit inventory with an AI-powere
 | [React Navigation](https://reactnavigation.org/) | Screen navigation (Native Stack) |
 | [react-native-swiper](https://github.com/leecade/react-native-swiper) | Image carousel on login screen |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── App.js              # Root navigation setup
@@ -40,7 +40,7 @@ A React Native mobile application for managing fruit inventory with an AI-powere
 └── assets/             # Images and icons
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -95,14 +95,7 @@ npx expo start
 
 Then scan the QR code with Expo Go on your device.
 
-## 🔑 Default Login
-
-| Field | Value |
-|---|---|
-| Username | `admin` |
-| Password | `admin` |
-
-## 📦 Available Scripts
+## Available Scripts
 
 ```bash
 npm start          # Start Expo dev server
@@ -112,7 +105,7 @@ npm run web        # Run in web browser
 npm run lint       # Run ESLint
 ```
 
-## 🌱 Environment Variables
+## Environment Variables
 
 | Variable | Description |
 |---|---|
@@ -125,10 +118,6 @@ npm run lint       # Run ESLint
 | `EXPO_PUBLIC_FIREBASE_APP_ID` | Firebase app ID |
 | `EXPO_PUBLIC_FIREBASE_MEASUREMENT_ID` | Firebase measurement ID |
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-> 📚 Final project for **01418342-65 Mobile Application Design and Development**
